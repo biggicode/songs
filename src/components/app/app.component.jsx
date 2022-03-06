@@ -1,5 +1,10 @@
 import React from "react"
+import { SongList } from "../song-list"
 
 export const App = () => {
-  return <div>this is app</div>
+  return (
+    <div>
+      <SongList />
+    </div>
+  )
 }
